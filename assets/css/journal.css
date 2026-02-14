@@ -1,0 +1,90 @@
+/* Body */
+body {
+  background-color: #f4f6f9;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2f3e46;
+}
+
+.container {
+  padding-bottom: 50px;
+}
+
+/* Headers */
+h1,
+h2,
+h3,
+h4 {
+  color: #2f3e46;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.card-title {
+  color: #2f3e46;
+}
+
+/* Text contents*/
+.journal-content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #34495e;
+}
+
+/* Input and form */
+.form-control,
+.input-group-text {
+  border-radius: 10px;
+}
+
+#journal-content {
+  height: 200px;
+  resize: none;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #4a6fa5;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #3b5d87;
+}
+
+.btn-outline-primary {
+  border-color: #4a6fa5;
+  color: #4a6fa5;
+}
+
+.btn-outline-primary:hover {
+  background-color: #4a6fa5;
+  color: #ffffff;
+}
+
+.btn-outline-danger {
+  border-radius: 8px;
+}
+
+.btn-outline-secondary {
+  border-radius: 8px;
+}
+
+hr {
+  border-top: 1px solid #e3e6ea;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
